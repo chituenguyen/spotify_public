@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Content from "./components/Content";
 import Navigation from "./components/Navigation";
-import { Songs } from "./context";
+import { Songs } from "./Context";
 import DataSongs from "../src/data/songs.json";
 import Playing from "./components/Playing";
 
