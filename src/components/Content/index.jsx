@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from "react";
 import logo from "../../assets/logo.jpg";
 import { BsPlayCircleFill } from "react-icons/bs";
 import { BiDotsHorizontalRounded } from "react-icons/bi";
-import { Songs } from "../../context";
+import { Songs } from "../../Context";
 const Content = () => {
   const { DataSongs, handleSetSong, songPlaying } = useContext(Songs);
   const [songId, setSongId] = useState(0);
