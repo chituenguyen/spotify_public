@@ -4,6 +4,10 @@
   "version": "0.0.0",
   "homepage": "https://chituenguyen.github.io/spotify_public/",
   "type": "module",
+  "engines": {
+    "node":"16.17.0",
+    "yarn":"1.22.19"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
