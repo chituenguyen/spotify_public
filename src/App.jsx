@@ -14,14 +14,11 @@ function App() {
   };
   return (
     <Songs.Provider value={{ DataSongs, songPlaying, handleSetSong }}>
-    <div className="grid grid-cols-6 h-screen relative">
-      
+      <div className="grid grid-cols-6 h-screen relative">
         <Navigation />
         <Content />
-        
-      
-    </div>
-    <Playing />
+      </div>
+      <Playing />
     </Songs.Provider>
   );
 }

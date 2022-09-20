@@ -5,8 +5,8 @@
   "homepage": "https://chituenguyen.github.io/spotify_public/",
   "type": "module",
   "engines": {
-    "node":"16.17.0",
-    "yarn":"1.22.19"
+    "node": "16.17.0",
+    "yarn": "1.22.19"
   },
   "scripts": {
     "dev": "vite",
@@ -17,10 +17,14 @@
   },
   "dependencies": {
     "gh-pages": "^4.0.0",
+    "localforage": "^1.10.0",
+    "match-sorter": "^6.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-h5-audio-player": "^3.8.5",
     "react-icons": "^4.4.0",
+    "react-router-dom": "^6.4.0",
+    "sort-by": "^1.2.0",
     "vue": "^3.2.39"
   },
   "devDependencies": {
