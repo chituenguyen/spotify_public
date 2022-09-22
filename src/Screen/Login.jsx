@@ -42,7 +42,7 @@ const Login = () => {
       </div>
 
       {/* Another Login */}
-      <div className="flex flex-col border-[2px] border-x-0  border-y-[#878787] mx-auto w-[450px] pt-6 mt-5 pb-4">
+      <div className="flex flex-col border-[1px] border-x-0  border-y-[#909090] mx-auto w-[450px] pt-6 mt-5 pb-4">
         <p className="text-sm font-semibold">Email address or username</p>
         <input type="text" className="border-[1px] border-[#b5b5b5e6]  bg-[#e8f0fe] h-[45px] py-auto px-3 mt-2 hover:border-black" placeholder="Email adress or username"/>
         <p className="text-sm font-semibold">Password</p>
@@ -55,6 +55,12 @@ const Login = () => {
           </div>
           <button className="w-[127px] h-[45px] bg-[#1ed760] rounded-full uppercase tracking-wider font-semibold">Log in</button>
         </div>
+      </div>
+
+      {/* Dont have account */}
+      <div className="flex items-center justify-center flex-col">
+        <h2 className="text-lg font-semibold mt-6 mb-4">Don't have an account ?</h2>
+        <button className="flex items-center justify-center w-[450px] bg-[#fff] rounded-full py-3 text-black font-semibold border-[1px] border-[#b5b5b5e6] hover:border-black">SIGN UP FOR SPOTIFY</button>
       </div>
     </div>
   );
